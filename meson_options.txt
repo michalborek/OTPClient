@@ -1,0 +1,2 @@
+option('use_flatpak_app_folder', type : 'boolean', value : false, description : 'Must be enabled when using the flatpak version.')
+option('zbar_old_lib', type : 'boolean', value : false, description : 'True if zbar <= 0.10.x, else false')
